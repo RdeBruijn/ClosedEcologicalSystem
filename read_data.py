@@ -4,8 +4,7 @@ import zlib
 import sftpclient
 import datetime
 sep = b';'
-client = sftpclient.SFTPClient(
-    host="83.80.212.171",
+client = "XXX.XXX.XXX.XXX",
     username="pi",
     password="usbpoortvanroger",
     use_known_hosts=False, 

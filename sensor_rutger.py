@@ -38,15 +38,16 @@ def process(a, data):
     a.write(data)
     header = a.read(2)
     if header:
+        print(header)
         if header[0] == 0x16:
             pass
-            #print("header seems intact")
+            print("header seems intact")
         else:
             print("header seems corrupt")
         command = a.read(header[1])
         if command[0] == data[2]:
             pass
-            #print("command matches")
+            print("command matches")
         else:
             print("command seems off")
         cksum = a.read(1)
