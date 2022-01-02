@@ -1,4 +1,3 @@
-# ClosedEcologicalSystem
-info
+# Closed ecological system
+kop 1
 --------------------------------------------
-project for the sensors to monitor a closed ecosystem and a control(open ecosystem)
