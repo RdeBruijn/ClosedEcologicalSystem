@@ -1,9 +1,4 @@
 
-# ClosedEcologicalSystem
-[generiek]
-sources
------------------------
-=======
 # Closed ecological system
 general
 --------------------------------------------
